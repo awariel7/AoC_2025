@@ -21,10 +21,10 @@ for l in lines:
     res = ""
     digits_list = [s for s in l]
     max_joltage = max_num(2, digits_list, 0, res)
-    print(max_joltage)
+    #print(max_joltage)
     total_sum_1 += int(max_joltage)
     max_joltage_2 = max_num(12, digits_list, 0, res)
-    print(max_joltage_2)
+    #print(max_joltage_2)
     total_sum_2 += int(max_joltage_2)
 print(f"Part 1: {total_sum_1}")
 print(f"Part 2: {total_sum_2}")
