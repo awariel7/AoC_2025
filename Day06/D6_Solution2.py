@@ -29,7 +29,7 @@ def do_cephalopod_math(lines, lines_cnt, last_pos, operator):
     return res
 
 # read file
-with open("input.txt", "r") as file:
+with open("test.txt", "r") as file:
     lines = [line.rstrip() for line in file]
 
 line_len = len(max(lines, key=len)) + 1
